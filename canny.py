@@ -37,7 +37,7 @@ return kernel
         
  
 
-# FoG(x) = Somme for kernel size(F(x)*G(x-i)) 
+# FoG(x) = Sum for kernel size(F(x)*G(x-i)) 
 def convolution(input, kernel):
     output = numpy.empty(input.shape)
     k =0
